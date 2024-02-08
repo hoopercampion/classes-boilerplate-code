@@ -1,51 +1,108 @@
-# Challenge: Customising a Portfolio Page
+# Challenge: Customizing a Portfolio Page
 
-**Objective:** Customise a portfolio page by applying CSS styles to different sections using class names.
+**Objective:** Customize a portfolio page by applying CSS styles to different sections using specific class names.
 
 **Instructions:**
-1. Download the provided boilerplate files: HTML and CSS - Follow this [link](https://github.com/hoopercampion/classes-boilerplate-code).
+1. Download the provided boilerplate files: HTML and CSS.
+2. Open the HTML file in a text editor.
+3. Customize the portfolio page by following these instructions for each section:
 
-2. Open the HTML file in VSCode.
+    **Header:**
+    - Add the class name `header` to the header section (`<header>`).
+    - Apply the following styles to the header section using the `.header` class in the CSS file:
+        ```css
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        ```
 
-3. Customise the portfolio page by applying CSS styles to the following sections:
-   - **Header:** Apply styles to the header section with the class name `header`.
-   - **Navigation Menu:** Apply styles to the navigation menu with the class name `menu`.
-   - **Introduction:** Apply styles to the introduction section with the class name `introduction`.
-   - **Portfolio Projects:** Apply styles to the portfolio projects section with the class name `projects`.
-   - **Contact Form:** Apply styles to the contact form section with the class name `contact`.
+    **Navigation Menu:**
+    - Add the class name `menu` to the navigation menu (`<nav>`).
+    - Apply the following styles to the navigation menu using the `.menu` class in the CSS file:
+        ```css
+        .menu {
+            text-align: right;
+        }
+        .menu ul {
+            list-style-type: none;
+        }
+        .menu ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+        .menu ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        ```
 
-4. Experiment with different CSS properties such as `background-color`, `font-family`, `padding`, `margin`, `border`, etc., to customise each section according to your preferences.
+    **Introduction:**
+    - Add the class name `introduction` to the introduction section (`<section>`).
+    - Apply the following styles to the introduction section using the `.introduction` class in the CSS file:
+        ```css
+        .introduction {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        ```
 
+    **Portfolio Projects:**
+    - Add the class name `projects` to the portfolio projects section (`<section>`).
+    - Apply the following styles to the portfolio projects section using the `.projects` class in the CSS file:
+        ```css
+        .projects {
+            padding: 20px;
+        }
+        .project {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        ```
+
+    **Contact Form:**
+    - Add the class name `contact` to the contact form section (`<section>`).
+    - Apply the following styles to the contact form section using the `.contact` class in the CSS file:
+        ```css
+        .contact {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        .contact form {
+            margin-top: 20px;
+        }
+        .contact form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .contact form input,
+        .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact form button {
+            background-color: #fff;
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #ccc;
+        }
+        ```
+
+4. Experiment with different CSS properties such as `background-color`, `font-family`, `padding`, `margin`, `border`, etc., to customize each section according to your preferences.
 5. Save your changes and preview the portfolio page in a web browser to see the applied styles.
-
-6. Once you're satisfied with the customisations, share your customised portfolio page with your classmates or instructor for feedback.
+6. Once you're satisfied with the customizations, share your customized portfolio page with your classmates or instructor for feedback.
 
 **Challenge Tips:**
-- Encourage students to experiment with different colours, fonts, and layout techniques to make their portfolio page unique.
-- Remind students to test their customised portfolio page on different devices and screen sizes to ensure responsiveness.
-- Offer assistance and feedback as needed during the challenge to help students overcome any obstacles they encounter.
+- Use the provided HTML structure as a guideline and focus on adding specific class names to each section for targeted styling.
+- Test your customized portfolio page on different devices and screen sizes to ensure responsiveness.
+- Don't hesitate to experiment with various CSS properties to achieve the desired visual effects.
 
-
-# Extension: Adding Visual Effects
-
-**Objective:** Enhance the visual appeal of the customized portfolio page by adding simple CSS visual effects.
-
-**Instructions:**
-1. Open the previously customized portfolio page (`portfolio.html`) and its associated CSS file (`styles.css`) in a text editor.
-2. Identify elements on the page where visual effects can be applied to enhance the design.
-3. Choose one or more visual effects to implement from the following options:
-   - **Box Shadow:** Add a subtle shadow effect to selected elements to create depth.
-   - **Border Radius:** Apply rounded corners to selected elements for a softer look.
-   - **Hover Effects:** Implement hover effects such as changing background color or text color when hovering over specific elements like navigation links or portfolio project items.
-   - **Transitions:** Add smooth transitions to element properties (e.g., color, size) to create fluid animations.
-4. Write CSS code to apply the selected visual effects to the corresponding elements.
-5. Test the portfolio page in a web browser to ensure that the visual effects are applied correctly and enhance the overall design.
-6. Share your updated portfolio page with your classmates or instructor for feedback.
-
-**Extension Tips:**
-- Start with simple visual effects and gradually increase complexity as you become more comfortable with CSS.
-- Experiment with different values for properties like box shadow blur radius or transition duration to fine-tune the visual effects.
-- Pay attention to the subtlety of the effects to ensure they enhance rather than distract from the content.
-- Test the portfolio page across different browsers to ensure consistent rendering of the visual effects.
-
-By completing this simplified extension activity, students will gain practical experience in using CSS to enhance the visual appearance of web pages without delving into more complex concepts.
+By following these instructions and applying the suggested styles, you'll gain practical experience in customizing web pages using HTML and CSS, which are essential skills for web development. Let me know if you need further clarification or assistance!
