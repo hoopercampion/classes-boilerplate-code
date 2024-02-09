@@ -1,15 +1,18 @@
-# Challenge: Customizing a Portfolio Page
+# Challenge: Building a Website About Favorite TV Shows
 
-**Objective:** Customize a portfolio page by applying CSS styles to different sections using specific class names.
+**Objective:** Create a website about favorite TV shows by applying CSS styles to different sections using specific class names.
 
-**Instructions:**
-1. Download the provided boilerplate files: HTML and CSS.
-2. Open the HTML file in a text editor.
-3. Customize the portfolio page by following these instructions for each section:
+## Instructions:
+1. **Download the provided HTML boilerplate file.**
+
+2. **Open the HTML file in a text editor.**
+
+3. **Customize the website by following these instructions for each section:**
 
     **Header:**
     - Add the class name `header` to the header section (`<header>`).
-    - Apply the following styles to the header section using the `.header` class in the CSS file:
+    - Apply styles to the header section using the `.header` class in the CSS file.
+    - **Suggested Styles:**
         ```css
         .header {
             background-color: #333;
@@ -20,7 +23,8 @@
 
     **Navigation Menu:**
     - Add the class name `menu` to the navigation menu (`<nav>`).
-    - Apply the following styles to the navigation menu using the `.menu` class in the CSS file:
+    - Apply styles to the navigation menu using the `.menu` class in the CSS file.
+    - **Suggested Styles:**
         ```css
         .menu {
             text-align: right;
@@ -38,39 +42,52 @@
         }
         ```
 
-    **Introduction:**
-    - Add the class name `introduction` to the introduction section (`<section>`).
-    - Apply the following styles to the introduction section using the `.introduction` class in the CSS file:
+    **Featured TV Show:**
+    - Add the class name `featured-show` to the featured TV show section (`<section>`).
+    - Apply styles to the featured TV show section using the `.featured-show` class in the CSS file.
+    - **Suggested Styles:**
         ```css
-        .introduction {
+        .featured-show {
             background-color: #f2f2f2;
             padding: 20px;
         }
         ```
 
-    **Portfolio Projects:**
-    - Add the class name `projects` to the portfolio projects section (`<section>`).
-    - Apply the following styles to the portfolio projects section using the `.projects` class in the CSS file:
+    **Top TV Shows:**
+    - Add the class name `top-shows` to the top TV shows section (`<section>`).
+    - Apply styles to the top TV shows section using the `.top-shows` class in the CSS file.
+    - **Suggested Styles:**
         ```css
-        .projects {
+        .top-shows {
             padding: 20px;
         }
-        .project {
+        .top-shows div {
             background-color: #fff;
             margin-bottom: 20px;
             padding: 10px;
         }
         ```
 
-    **Contact Form:**
-    - Add the class name `contact` to the contact form section (`<section>`).
-    - Apply the following styles to the contact form section using the `.contact` class in the CSS file:
+    **Recent Reviews:**
+    - Add the class name `recent-reviews` to the recent reviews section (`<section>`).
+    - Apply styles to the recent reviews section using the `.recent-reviews` class in the CSS file.
+    - **Suggested Styles:**
         ```css
-        .contact {
+        .recent-reviews {
             background-color: #333;
             color: #fff;
             padding: 20px;
         }
+        .recent-reviews div {
+            margin-bottom: 20px;
+        }
+        ```
+
+    **Contact:**
+    - Add the class name `contact` to the contact section (`<section>`).
+    - Apply styles to the contact section using the `.contact` class in the CSS file.
+    - **Suggested Styles:**
+        ```css
         .contact form {
             margin-top: 20px;
         }
@@ -96,13 +113,16 @@
         }
         ```
 
-4. Experiment with different CSS properties such as `background-color`, `font-family`, `padding`, `margin`, `border`, etc., to customize each section according to your preferences.
-5. Save your changes and preview the portfolio page in a web browser to see the applied styles.
-6. Once you're satisfied with the customizations, share your customized portfolio page with your classmates or instructor for feedback.
+4. **Experiment with different CSS properties such as `background-color`, `font-family`, `padding`, `margin`, `border`, etc., to customize each section according to your preferences.**
 
-**Challenge Tips:**
-- Use the provided HTML structure as a guideline and focus on adding specific class names to each section for targeted styling.
-- Test your customized portfolio page on different devices and screen sizes to ensure responsiveness.
-- Don't hesitate to experiment with various CSS properties to achieve the desired visual effects.
+5. **Save your changes and preview the website in a web browser to see the applied styles.**
 
-By following these instructions and applying the suggested styles, you'll gain practical experience in customizing web pages using HTML and CSS, which are essential skills for web development. Let me know if you need further clarification or assistance!
+6. **Once you're satisfied with the customizations, share your website about favorite TV shows with your classmates or instructor for feedback.**
+
+## Challenge Tips:
+- Use descriptive class names to target specific sections for styling.
+- Avoid using IDs and focus on using class names for better code maintainability.
+- Test your website on different devices and screen sizes to ensure responsiveness.
+- Don't hesitate to experiment with various CSS properties and values to achieve the desired visual effects.
+
+By completing this challenge, you'll gain practical experience in building and styling a website about favorite TV shows using HTML and CSS.
